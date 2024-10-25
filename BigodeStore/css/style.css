@@ -4,6 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: "Lexend", sans-serif;
+    
+
+}
+body{
+    background-color: #f5f4f9;
 }
 header{
     background-image: url(/img/fundo\ hearde.svg);
@@ -149,22 +155,139 @@ main .why{
 
     }
 }
+.genres{
+    width: Hug (1,280px)px;
+    height: Hug (323px)px;
+    top: 1207px;
+    padding: 40px 92px 40px 92px;
+    gap: 24px;
+    opacity: 0px;
 
+}
 .genres .cards{
         display: flex;
         justify-content: space-between;
+        gap: 16px;
+        margin-top: 19px ;
         & .card{
-            width: 199px;
-            height: 199px;
+            display: flex;
+            width: 169px;
+            height: 169px;
+            gap: 0px;
+            border-radius: 8px 8px 8px 8px;
+            opacity: 0px;            
             color: #fff;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat ;
             
             
-    
+
+            & p {
+                font-size: 20px;
+                font-weight: 500;
+            }    
         }
     }
      .strategy{
-        background-image: url(./img2.svg/strategy.svg);
-        
+        background-image: url(./img2.svg/strategy.svg); 
         
     }
+    .fps{
+        background-image: url(./img2.svg/fps.svg);
+        
+    }
+    .rpg{
+        background-image: url(./img2.svg/rpg.svg);
+    }
+    .puzzle{
+        background-image: url(./img2.svg/puzzle.svg);
+    }
+    .role{
+        background-image: url(./img2.svg/role.svg);
+    }
+    .sport{
+        background-image: url(./img2.svg/sports.svg);
+    }
+    .best{
+        & .title{
+
+        }
+        & .cards{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            & .card{
+                background-color: #fff;
+                padding: 16px;
+                & .content{
+                    padding: 16px;
+
+                    & .prices{
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 17px;
+
+                        & h5{
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 22.4px;
+                            text-align: left;
+                            color: #3B44F6;
+                            background-color: #D8DAFD;
+                            margin-top: 16px;
+                            padding: 4px 0px 4px 0px;
+                            gap: 8px;
+                            border-radius: 4px;
+                            opacity: 0px;
+
+
+                           }
+                        
+                        & h4 {  
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 22.4px;
+                            text-align: left;
+                            color: #3B44F6;
+                            padding-top: 17px;
+                        }
+                        & .desconto{
+                            display: flex;
+                            gap: 6px;
+                            border-radius: 4px 0px 0px 0px;
+                            border: 0.5px 0px 0px 0px;
+                            opacity: 0px;
+                            padding-top: 17px;
+
+                            
+
+                            & span{
+                                padding: 3px 0px 0px 0px;
+                                gap: 10px;
+                                border-radius: 4px 0px 0px 0px;
+                                opacity: 0px;
+                                background-color:#FC326F33;
+                                color: red
+                                ;
+                            }
+                            & p{
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18.76px;
+                                text-align: left;
+                                color: #7D7D7D;
+                                text-decoration: line-through;
+                                background-color: #F5F4F9
+                                
+
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 
